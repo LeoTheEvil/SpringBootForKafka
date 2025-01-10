@@ -25,6 +25,6 @@ public class KafkaTopicConfig {
                 .partitions(2)
                 .replicas(2)
                 .configs(configurations)
-                .build()
+                .build();
     }
 }
